@@ -104,7 +104,9 @@ h2 {
 hr {
     width: 22%;
 }
-
+.hr_normal{
+    width: 100%;
+}
 .flex_column {
     flex-direction: column;
 
@@ -282,5 +284,13 @@ hr {
 
 .seventh_section{
     background-color: var(--dropbox-primary);
+    padding-bottom: 100px;
+}
+
+.two.second{
+    color: var(--dropbox-purple);
+}
+
+.eight_section{
     padding-bottom: 100px;
 }
