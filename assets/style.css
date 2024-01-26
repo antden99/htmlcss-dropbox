@@ -31,9 +31,7 @@ img {
 }
 
 
-#site_main {
-    height: calc(100vh - 50px - 200px);
-}
+
 
 
 .d_flex {
@@ -83,6 +81,7 @@ img {
     max-width: 1800px;
     margin: auto;
     flex-wrap: wrap;
+    
 }
 
 .fa-check {
@@ -292,5 +291,14 @@ hr {
 }
 
 .eight_section{
+    padding-bottom: 100px;
+}
+
+#site_footer
+{
+    padding-top: 100px;
+    
+    background-color: black;
+    color: white;
     padding-bottom: 100px;
 }
