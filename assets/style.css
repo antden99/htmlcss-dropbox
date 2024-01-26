@@ -9,24 +9,21 @@
     --dropbox-primary: #b4d0e7;
     --btn-color: #0061ff;
 }
-
+img{
+    width: 100%;
+}
 .wrapper {
     height: 100vh;
 }
 
 #site_header {
     height: 50px;
-
 }
 
 
 #site_main {
     height: calc(100vh - 50px - 200px);
-
-
 }
-
-
 
 
 .d_flex {
@@ -78,10 +75,9 @@
     color: #0061ff;
 }
 
-img {
-    width: 100%;
+.negative_bottom{
+    margin-bottom: -100px;
 }
-
 h1 {
     font-size: 80px
 }
@@ -107,7 +103,6 @@ hr {
 }
 
 .jumbo_2 {
-
     height: 50%;
     margin: auto;
 }
@@ -116,12 +111,11 @@ hr {
     width: 30%;
     align-items: start;
     gap: 50px;
-
+    
 }
 
 .jumbo_4 {
     width: 70%;
-    margin-bottom: -100px;
 }
 
 .p_relative {
@@ -137,7 +131,6 @@ hr {
 
 
 .second_section {
-    height: 800px;
     padding-top: 150px;
 }
 
@@ -145,8 +138,7 @@ hr {
     padding-top: 20px;
     margin: auto;
     flex-wrap: wrap;
-
-
+    background-color: pink;
 }
 
 .section_jumbo {
@@ -167,12 +159,13 @@ hr {
 .col-4 {
     width: calc(100% / 12 * 4 - 2px - 20px);
     border: 1px solid rgba(0, 0, 0, 0.5);
-
+    background-color: chocolate;
 }
 
 .center {
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 5px;
 }
 
 .distance {
@@ -196,7 +189,7 @@ hr {
 
 .item_1 {
     border: 1px solid rgba(0, 0, 0, 0.5);
-
+    padding: 5px;
     text-align: center;
 
 }
@@ -204,4 +197,8 @@ hr {
 .item_2 {
     padding: 20px;
     border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.third_section{
+    background-color: red;
 }
