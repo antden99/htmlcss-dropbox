@@ -258,14 +258,21 @@ h2 {
     padding: 8px 12px;
     color: white;
     text-decoration: none;
+    transition:all 0.5s ease-in-out;
 }
-
+.btn:hover{
+    opacity: 0.5;
+}
 .btn2 {
     background-color: var(--dropbox-lighter);
     padding: 15px 12px;
     color: black;
     text-decoration: none;
     border: 1px solid gray;
+    transition:all 0.5s ease-in-out;
+}
+.btn2:hover{
+    opacity: 0.5;
 }
 
 /* #endregion Btn*/
@@ -335,18 +342,20 @@ div.item2.d_flex > div:not(:last-child):hover{
 
 .menu{
     display: relative;
+    
 }
-
 .menu-tendina{
     list-style: none;
     position: absolute;
     border: 1px solid black;
-    top: 40px;
+    top: 50px;
     border-bottom: none;
     display: none;
     z-index: 1;
-    background-color: white;
-    color: black;
+    color: black; 
+    background-color: #ff1c1c;
+    transition: background-color 1s;
+   
 }
 
 .menu-tendina li{
@@ -354,12 +363,19 @@ div.item2.d_flex > div:not(:last-child):hover{
     height: 30px;
     text-align: center;
     border: 1px solid black;
+    
 }
 
 .menu:hover .menu-tendina{
-    display: block; 
-    background-color: var(--dropbox-primary);
+    display: block;    
+    opacity: 1;
+    background-color:var(--dropbox-primary);
 }
 
+div .d_flex.flex_column.gap-20 > *:hover{
+    border-bottom: 1px solid white ;
+}
 
-
+div .d_flex.flex_column.gap-20 > :first-child:hover{
+    color: var(--dropbox-primary);
+}
